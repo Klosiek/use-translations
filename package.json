@@ -1,0 +1,101 @@
+{
+  "name": "use-translations",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Klosiek",
+  "description": "Intl hook to provide better usage",
+  "homepage": "https://github.com/Klosiek/use-translations#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klosiek/use-translations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Klosiek/use-translations/issues"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "keywords": [
+    "intl",
+    "i18n",
+    "locale",
+    "formatjs",
+    "translate",
+    "react-intl",
+    "translation",
+    "useTranslate",
+    "use-translate",
+    "globalization",
+    "useTranslation",
+    "use-translations",
+    "internationalization"
+  ],
+  "module": "dist/use-translations.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/use-translations.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/use-translations.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^7.0.8",
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13",
+    "husky": "^7.0.4",
+    "i18next": "^21.6.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.7",
+    "react-intl": "^5.24.7",
+    "size-limit": "^7.0.8",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.1",
+    "typescript": "4.6.2"
+  },
+  "dependencies": {
+    "camelcase": "^6.3.0"
+  },
+  "resolutions": {
+    "**/@typescript-eslint/eslint-plugin": "^5.4.0",
+    "**/@typescript-eslint/parser": "^5.4.0",
+    "**/jest": "^27.3.1",
+    "**/ts-jest": "^27.0.7",
+    "**/typescript": "^4.4.4"
+  }
+}
