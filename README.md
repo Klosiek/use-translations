@@ -4,7 +4,7 @@
 
 [![alt Version](https://img.shields.io/npm/v/use-translations?color=blue)](https://www.npmjs.com/package/use-translations) [![alt License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-![use-translations](https://i.imgur.com/tRUGvpH.png)
+![use-translations](https://i.imgur.com/CvI4oL9.png)
 ![use-translations](https://i.imgur.com/FLy5y3g.png)
 
 **🏠 [Homepage](https://github.com/Klosiek/useTranslations 'use-translations Github')**
